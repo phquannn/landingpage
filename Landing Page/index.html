@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewreport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid banner">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-md">
+            <div class="navbar-brand">
+              <i class="fas fa-user-secret"></i> QUANPHAM
+            </div>
+            <ul class="nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-toggle="tooltip"
+                  title="Đây là Home sẵn rồi!"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/phquann/photos"
+                  data-toggle="tooltip"
+                  title="Vào xem ảnh thầy giáo nhé!"
+                  >PHOTOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/phquann/about"
+                  data-toggle="tooltip"
+                  title="Xem info thầy giáo nha!"
+                  >ABOUT</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.facebook.com/phquann/"
+                  data-toggle="tooltip"
+                  title="Facebook thầy giáo nè kết bạn đi!"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-8 offset-md-2 info">
+          <h1 class="text-center">LEARNING CODE IS EASY!</h1>
+          <p class="text-center">
+            Chỉ 3 khóa học với thầy Quân, bạn có thể code mượt như mái tóc của
+            crush bạn 🤩😍!
+          </p>
+          <a
+            href="https://codelearn.io/"
+            class="btn btn-md text-center"
+            data-toggle="tooltip"
+            title="Đăng ký học thôi chần chừ gì nữa!"
+            >GET STARTED</a
+          >
+        </div>
+        <form action="/action_page.php" class="needs-validation">
+          <div class="form-group">
+            <label for="uname">Username:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="uname"
+              placeholder="Enter username"
+              name="uname"
+              required
+            />
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Enter password"
+              name="pswd"
+              required
+            />
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+          </div>
+          <div class="form-group form-check">
+            <label class="form-check-label">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                name="remember"
+                required
+              />
+              Remember me
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">
+                Check this checkbox to continue.
+              </div>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign In</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
